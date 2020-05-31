@@ -9,7 +9,7 @@ use it like this `clickEl({ selector: "svg[aria-label='Like']" })`
   await clickEl({
     selector: "svg[aria-label='Like']", 
     sleepAfter: 300
-  })`
+  })
   
   await clickEl({
     element: Array.from(document.querySelectorAll('button'))
