@@ -1,7 +1,7 @@
   function clickEl(selector, sleepAfter) {
     /* 
       Example usage
-      touchEl("svg[aria-label='Like']")
+      await touchEl("svg[aria-label='Like']", 300)
     */
     const el = document.querySelector(selector)
     const { x, y } = el.getBoundingClientRect()
